@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <link href='pixelCircle.css' rel='stylesheet'>
+        <title>PixelCircle</title>
+    </head>
+    <body>
+        <div>
+            <input type='number' id='inpR'>
+            <button id='subm' onclick=checkC()>Generated</button>
+            <button id='showLs' onclick=checkL()>List</button>
+            <button id='showMat' onclick=checkM()>Array</button>
+            <button id='showPix' onclick=checkP()>Pixel</button>
+        </div>
+        <hr>
+        <table id='ls'>
+            <tr>
+                <th id='no'>No</th>
+                <th id='y'>Radius_Y</th>
+            </tr>
+        </table>
+        <code id='matrix'></code>
+        <div id='pixel'></div>
+    </body>
+    <script src='pixelCircle.js' type='text/javascript' charset='utf-8'></script>
+</html>

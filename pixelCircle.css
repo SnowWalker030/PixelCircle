@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white;
+    }
+#inpR,button {
+    font-size: 100%;
+    }
+button{
+    width: 85px;
+    padding: 0px;
+    }
+#ls {
+    border-spacing: 0px;
+    }
+td,th {
+    border: .5px solid white;
+    padding: 0px 10px 0px 10px;
+    }
+td {
+    text-align: right;
+    }
+th {
+    text-align: center;
+    }
+#y {
+    min-width: 10vw;
+    max-width: 60vw;
+    }
+#no {
+    max-width: 40vw;
+    }
+#matrix {
+    white-space: normal;
+    font-family: 'Courier New', Courier, monospace;
+    }
+#pixel {
+    font-family: SimHei, 'Courier New', Courier, monospace;
+    line-height: 1em;
+    white-space: nowrap;
+    }
