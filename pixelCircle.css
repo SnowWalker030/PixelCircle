@@ -35,6 +35,7 @@ th {
     }
 #pixel {
     font-family: SimHei, 'Courier New', Courier, monospace;
-    line-height: 1em;
+    line-height: 1.1em;
+    letter-spacing: 1.1em;
     white-space: nowrap;
     }
