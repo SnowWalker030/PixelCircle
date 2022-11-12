@@ -39,3 +39,7 @@ th {
     letter-spacing: 0.05em;
     white-space: nowrap;
     }
+.ver{
+    position: absolute;
+    right: 10px;
+    }
