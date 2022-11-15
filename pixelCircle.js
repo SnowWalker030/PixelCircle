@@ -101,13 +101,14 @@ function renderP(){
     pix.style.display = '';
     map = '';
     a = Math.floor(Arr1[Arr1.length-1]) - limit;
-    b = Arr1[Arr1.length-1] + Arr1.length - a;
-    for(i=0;i<Arr2.length-a;i++){
-        map += '&emsp;'.repeat(b-Arr1[i]) + '&block;'.repeat(Arr2[i]) + '<br>'
+    for(i=0;i<Arr2.length;i++){
+        map += '&emsp;'.repeat(r-Arr1[i]) + '&block;'.repeat(Arr2[i]) + '<br>';
     };
+    Arr2.push(Arr2.pop()-a);
     for(i=Arr2.length-1;i>-1;i--){
-        map += ('&emsp;'.repeat(i)+'&block;<br>').repeat(parseFloat(Arr2[i]))
+        map += ('&emsp;'.repeat(i)+'&block;<br>').repeat(Arr2[i]);
     };
+    Arr2.push(Arr2.pop()+a);
     pix.innerHTML = map;
 };
 function addSpace(v){
